@@ -9,3 +9,5 @@ Route::get('/', function () {
 
 
 Route::get('login', [PageController::class, 'getLogin'])->name('login');
+
+Route::get('home', [PageController::class, 'getHome'])->name('homePage');
